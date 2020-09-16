@@ -121,7 +121,7 @@ public class PermissionPlugin implements MethodCallHandler, PluginRegistry.Reque
         result = Manifest.permission.READ_SMS;
         break;
       case "Storage":
-        result = Manifest.permission.MANAGE_EXTERNAL_STORAGE;
+        result = "android.permission.MANAGE_EXTERNAL_STORAGE";
         break;
       case "State":
         result = Manifest.permission.READ_PHONE_STATE;
